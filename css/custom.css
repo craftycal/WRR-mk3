@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  font-family: 'Muli';
+
+}
+
+
+/*     header     */
+
+header {
+  background-color: #dc544b;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
+
+}
+
+header .logo {
+  width: 140px;
+  height: 140px;
+  background-color: #fff;
+  border-radius: 170px;
+margin: 20px 20px;
+  border: 10px soild #fff;
+  float: left;
+
+}
+
+
+nav ul {
+  float: right;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid #fff; 
+
+}
+
+
+
+.mainBody {
+  width: 90%;
+  margin: 0 auto;
+margin-top: 45px;
+}
+
+
+
+
+
+
+
+/*      footer      */
+
+.footer {
+  width: 100%;
+  height: 45px;
+  background-color: #dc544b;
+  position: absolute;
+  bottom: 0px;
+  overflow: hidden;
+}
+
+.footer ul {
+  display: inline;
+}
+
+.bunny {
+  overflow: hidden;
+  left: 100px;
+  position: absolute;
+  bottom: 40px;
+  background-image: url(../images/WRR_Ideas.png);
+  height: 70px;
+  width: 120px;
+  content: "";
+  background-position: left;
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+
+.footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.footer ul li{
+  display: inline-block;
+  float: right;
+  margin: 4px 10px;
+  font-size: 24px;
+  padding: 4px 8px;
+  line-height: 24px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.footer ul li:hover {
+  cursor: pointer;
+  background-color: #e3766f;
+}
+
+#fbHidden, #emailHidden, #instagramHidden, #moneyHidden {
+  font-size: 16px;
+  display: none;
+}
